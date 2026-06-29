@@ -1,9 +1,12 @@
-// 
+// Arithmetic Operator
 
-let pen = 10;
-let pencil = 12;
+let a = 10;
 
-// let output = "Total price is pen and pencil :- " +(pen + pencil )+ " " +  "rupees." 
-let output = `The total prices is := ${pen + pencil} rupees. ` ;
-console.log(output);
+let b = 5;
 
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
+console.log(a % b);
+console.log(a**b);
