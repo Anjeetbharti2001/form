@@ -1,3 +1,2 @@
-// For the String -> let Name = "Anjeet Bharti", pridict the output for following 
-
-let name = "ApnaCollege";
+let student = ["anjeet", "Raju","hemram", "brik","demendra"];
+console.log(student);
