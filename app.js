@@ -1,2 +1,1 @@
-let student = ["anjeet", "Raju","hemram", "brik","demendra"];
-console.log(student);
+<button type="button" oneclick="document.getElementById('deme').innerHTML = Date()">Click me to display Date and Time </button>
