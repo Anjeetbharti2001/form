@@ -1,1 +1,8 @@
-<button type="button" oneclick="document.getElementById('deme').innerHTML = Date()">Click me to display Date and Time </button>
+for (let i = 2; i<=1000; i= i + 2){
+    console.log(i);
+}
+console.log("backwards");
+
+for(let i = 10; i>=2; i=i-2){
+    console.log(i);
+}
