@@ -16,7 +16,7 @@ seconds = String(seconds).padStart(2, "0");
 
 const clock = document.querySelector(".clock");
 
-clock.innerText = `${hour}:${minutes}:${seconds}`;
+clock.innerText = `${hour}:${minutes}:${seconds} ${period}`;
 
 console.log(now);
 console.log(hour, minutes, seconds);
