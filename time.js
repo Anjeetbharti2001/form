@@ -1,11 +1,13 @@
 function updateClock(){
 
-
-
 const now = new Date();
 let hour = now.getHours();
 let minutes = now.getMinutes();
 let seconds = now.getSeconds();
+
+let period = hour >= 12? "PM" : "AM";
+
+
 
 const clock = document.querySelector(".clock");
 
