@@ -7,7 +7,12 @@ let seconds = now.getSeconds();
 
 let period = hour >= 12? "PM" : "AM";
 
+hour = hour % 12;
+hour = hour || 12;
 
+hour = String(hour).padStart(2, "0");
+minutes = String(minutes).padStart(2, "0");
+seconds = String(seconds).padStart(2, "0");
 
 const clock = document.querySelector(".clock");
 
